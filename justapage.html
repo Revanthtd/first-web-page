@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Its my page</title>
+    <link href="fun.css" rel="stylesheet" type="text/css" />
+    <link href="video.css" rel="stylesheet" type="text/css" />
+    <script src="type.js"></script>
+    <script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+    
+<style>
+    .c{text-align: center;margin: 20%;color:;font-size:50px;}
+
+body 
+{
+   
+    font-family: sans-serif;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 59px;
+    left: 0;
+    background-color:transparent;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+     color: white;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+}
+</style>
+
+    
+</head>
+ <nav>
+    <ul>
+        <li><a href="#"> Uday</a></li>
+        <li><a href="#"> Karthik</a></li>
+        <li><a href="#"> Raj</a></li>
+        <li><a href="#"> Vinay</a></li>
+        <li><a href="#"> Sridar</a></li>
+        <li><a href="#"> Ashish</a></li>
+        <li><a href="#"> Ravi</a></li>
+        <li><a href="#"> Rakesh</a></li>
+        <li><a href="#"> Vinay</a></li>
+        <li><a href="#"> Revanth</a></li>
+        
+    
+     </ul>
+     </nav>
+     
+    
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">King</a>
+  <a href="#">Queen</a>
+  <a href="#">Villain</a>
+  <a href="#">Comedian</a>
+</div>
+<span style="cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+     
+
+     
+ <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
+ 
+<source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">
+<source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4">
+</video> 
+
+ 
+     
+     
+     
+      <body onload="startTime()";>
+
+      <div class="c"><div id="txt"></div></div>
+
+         </body>
+     
+     
+     
+     
+     
+     <!-- <section>
+      <input type="checkbox" id="menuToggle">
+        <label for="menuToggle" class="menu-icon">&#9776;</label>
+     
+         <ul class="menu">
+         <li><a href="#"> King     </a></li>
+         <li><a href="#"> Queen    </a></li>
+         <li><a href="#"> Minister </a></li>
+         <li><a href="#"> Soldier  </a></li>
+         <li><a href="#"> Father   </a></li>
+         <li><a href="#"> Mother   </a></li>
+         <li><a href="#"> Villian  </a></li>
+         </ul>
+        
+     </section>
+ </body>   
+</html>-->
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--	  <style>
+		 .city
+		  {
+			 float:left;
+			 margin: 5px;
+			 padding: 89px;
+			 max-width: 50px;
+			 height: 0px;
+			 border: 2px solid black;
+		  }
+	  </style>
+</head>
+<body>
+ <h1> Responsive Web Design Demo </h1>
+    <div class="city">
+       <h7> London </h7>
+       
+    </div> 
+    <div class="city">
+       <h7> London </h7>
+       
+    </div> 
+    <div class="city">
+       <h7> London </h7>
+       
+    </div> 
+    <div class="city">
+       <h7> London </h7>
+       
+    </div>
+    <div class="city">
+       <h7> London </h7>
+       
+    </div> -->
+
+
